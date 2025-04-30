@@ -6,6 +6,6 @@ def my_flow():
     try:
     
         current_time = datetime.datetime.now()
-        print(f"THE TIME IS {current_time.strftime("%H:%M:%S")}")
+        print(f'THE TIME IS {current_time.strftime("%H:%M:%S")}')
     except:
         print("ERROR")
